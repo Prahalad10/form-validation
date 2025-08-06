@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Community Event Registration</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Community Event Registration</h1>
+            <!-- Creating form with required fields to be filled -->
+            <form id="registrationForm" novalidate>
+                <!-- Name field -->
+                <label for="name">Name*</label>
+                <input type="text" id="name" name="name" required>
+                <span class="error" id="nameError"></span>
+
+                <!-- Email field -->
+                <label for="email">Email ID*</label>
+                <input type="email" id="email" name="email" required>
+                <span class="error" id="emailError"></span>
+
+                <!-- Phone number field -->
+                <label for="phno">Contact Number*</label>
+                <input type="tel" id="phno" name="phno" required>
+                <span class="error" id="phnoError"></span>
+
+                <!-- Age field -->
+                <label for="age">Age*</label>
+                <input type="number" id="age" name="age" required>
+                <span class="error" id="ageError"></span>
+
+                <!-- Event category field -->
+                <label for="category">Event Category*</label>
+                <select id="category" name="category">
+                    <option value="">--Select--</option>
+                    <option value="Football">Football</option>
+                    <option value="Cricket">Cricket</option>
+                    <option value="Basketball">Basketball</option>
+                </select>
+                <span class="error" id="categoryError"></span>
+
+                <!-- Submit Button -->
+                <button type="submit">Register</button>
+            </form>
+        </div>
+
+        <!-- Linking to the JavaScript code -->
+        <script src="script.js"></script>
+    </body>
+</html>
