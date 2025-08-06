@@ -24,14 +24,6 @@ Features
 
     Form reset after successful registration.
 
-Project Structure
-
-/community-event-registration
-  ├── index.html            # The main HTML file for the form
-  ├── style.css             # External CSS for styling (to be created)
-  ├── script.js             # JavaScript file for validation logic
-  └── README.md             # This file
-
 Technologies Used
 
     HTML: For creating the form structure and layout.
